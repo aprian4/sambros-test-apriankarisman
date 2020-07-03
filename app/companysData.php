@@ -9,5 +9,5 @@ class companysData extends Model
     //
     protected $table = "companys_datas";
  
-    protected $fillable = ['name','phone','phone','phone','phone'];
+    protected $fillable = ['name','phone','address','logo','pics'];
 }

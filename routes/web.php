@@ -12,5 +12,7 @@
 */
 
 Route::get('/', 'FrontController@index');
-Route::get('/company', 'FrontController@company');
+Route::get('/company', 'UploadController@upload');
+Route::get('/formcompany', 'UploadController@formupload');
+Route::post('/company/proses', 'UploadController@proses_upload');
 Route::get('/pics', 'FrontController@pics');
